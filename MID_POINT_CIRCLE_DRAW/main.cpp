@@ -13,7 +13,7 @@ glClearColor (1.0, 1.0, 1.0, 1.0);
 glMatrixMode(GL_PROJECTION);
 glLoadIdentity();
 
-gluOrtho2D(-300, 300, 0, 600);
+gluOrtho2D(-300, 300, -300, 300);
 
 }
 int main(int argc, char** argv) {

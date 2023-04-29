@@ -13,7 +13,7 @@ void init(void) {
 	glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
 
-    gluOrtho2D(-300, 300, 0, 600); // yazilmasa, isl?mir
+    gluOrtho2D(-300, 300, -300, 300); // yazilmasa, isl?mir
 }
 
 void setPixel(int x, int y) {
